@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(232, 232, 232);
+    color: antiquewhite;
+}
+ 
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: brown;
+    transition: background 0.3s;
+}
+
+@media (max-width: 800px){
+    .box{
+        background-color: rgb(102, 8, 8);
+    }
+}
+
+@media (max-width: 500px){
+    .box{
+        background-color: rgb(53, 4, 4);
+    }
+}
+
+#sizeInfo{
+    font-size: 20px;
+    margin-top: 30px;
+} 
